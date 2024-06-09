@@ -1,0 +1,11 @@
+(
+    name: "Bitwarden TOTP Manager",
+    description: "Syntax: bwt <query>",
+    query: (
+        regex: "^bwt\\s.*",
+        help: "bwt ",
+        isolate: true
+    ),
+    bin: (path: "bwt"),
+    icon: Name("gtk-authentication")
+)
